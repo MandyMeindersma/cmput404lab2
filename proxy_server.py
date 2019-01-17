@@ -15,6 +15,7 @@ def main():
         # listen forever
         while True:
             conn, addr = s.accept() #accept incoming connections
+            print(conn)
             with conn:
                 #create a socket
                 with socket.socket(family, socketype) as proxy_end:
