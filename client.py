@@ -1,3 +1,5 @@
+# the TA ADDING THESE TO HER REPOSITORY https://github.com/anony391/404lab2
+
 import socket
 
 HOST = "www.google.com"
